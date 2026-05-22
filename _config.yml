@@ -1,0 +1,19 @@
+# GitHub Pages config — this is the public-facing companion site
+# for the (private) `organizer-app` repository. Only the customer-
+# visible pages live here; the actual source code, internal release
+# checklist, and engineering docs stay in the private repo.
+
+title: Organizer
+description: A private, local-first folder organizer for macOS.
+url: https://pand40x.github.io
+baseurl: /organizer-site
+
+theme: minima
+permalink: pretty
+
+# Don't try to publish editor / package-manager scratch files.
+exclude:
+  - README.md  # this file is for repo browsers, not the site
+  - Gemfile
+  - Gemfile.lock
+  - vendor
