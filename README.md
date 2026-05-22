@@ -1,11 +1,10 @@
 # organizer-site
 
-Public companion site for the [Organizer macOS app](https://github.com/pand40x/organizer-app).
-
-This repository exists so the Organizer source repository can stay
-private while still hosting a public privacy policy and support page
-required by the Mac App Store. The site is published from this
-repo's root via GitHub Pages and lives at:
+Public companion site for the Organizer macOS app. The application
+source repository is private; this repository exists solely to host
+the public privacy policy and support page the Mac App Store
+requires. The site is published from this repo's root via GitHub
+Pages and lives at:
 
 <https://pand40x.github.io/organizer-site/>
 
